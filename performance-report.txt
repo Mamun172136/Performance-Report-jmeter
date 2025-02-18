@@ -1,0 +1,6 @@
+Test Plan Summary
+Scenario 1 (900 Requests): Average response time of 1474.21 ms, with throughput of 156.06 requests/sec; response times increase at higher percentiles.
+Scenario 2 (300 Requests): Average response time of 1043.68 ms, throughput of 69.93 requests/sec; moderate response time, but still high at 90th and 95th percentiles.
+Scenario 3 (1500 Requests): Average response time of 5316.11 ms, throughput of 48.26 requests/sec; significant performance degradation, with max response time reaching 29 seconds.
+Recommendations
+System performance degrades under higher loads, suggesting potential bottlenecks in server resources or database performance. Further optimization and scaling strategies are necessary to handle increased traffic efficiently.
